@@ -1,4 +1,5 @@
-<h1>All Articles</h1>
+<h1>Motti's blog.</h1>
+
 
 <ul>
   <% @articles.each do |article| %>
@@ -8,6 +9,6 @@
   <% end %>
 </ul>
 
-<%= link_to "New Article", new_article_path %>
+To add a new article, <%= link_to "Click here", new_article_path %>
 
 
