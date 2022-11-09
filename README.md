@@ -1,24 +1,46 @@
-# README
+## blog
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Hello, and welcome to my blog!
 
-Things you may want to cover:
+This is a simple CRUD/MVC app built with Ruby and the Rails framework that will allow a user to create blog posts as well as comments on those posts.
 
-* Ruby version
+Users have the ability to:
 
-* System dependencies
 
-* Configuration
+* Create new posts.
 
-* Database creation
+* Create new comments on posts.
 
-* Database initialization
+* View all posts.
 
-* How to run the test suite
+* Edit or delete posts.
 
-* Services (job queues, cache servers, search engines, etc.)
+* delete comments
 
-* Deployment instructions
+<!-- ## Demo
+[Course Review](https://youtu.be/RQdk9YKvdpg) -->
 
-* ...
+
+## Getting Started
+
+Fork and clone this repository to your local machine.
+
+In your terminal, install all the dependencies by executing the below command: $bundle install
+
+Next, run the following commands in the terminal to set up the local database:
+
+
+rails db:create
+<br>
+rails db:migrate
+<br>
+rails db:seed
+
+
+Then execute "rails s" to start up the local server on localhost:3000.
+ 
+
+
+
+# License
+The gem is available as open source under the terms of the [MIT License](LICENSE.MD).
